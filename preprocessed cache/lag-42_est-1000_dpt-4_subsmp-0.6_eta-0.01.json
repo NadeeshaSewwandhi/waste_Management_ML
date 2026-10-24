@@ -1,8 +1,0 @@
-{
-    "rmse": 5629.1607723925335,
-    "lag_count": 42,
-    "estimator_count": 1000,
-    "max_depth": 4,
-    "subsample": 0.6,
-    "eta": 0.01
-}
