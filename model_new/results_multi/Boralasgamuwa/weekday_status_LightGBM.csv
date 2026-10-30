@@ -1,0 +1,8 @@
+weekday,train_obs,test_obs,real_train_targets,status,params
+Monday,256,110,256,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.03}"
+Tuesday,256,109,256,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.1}"
+Wednesday,256,109,256,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}"
+Thursday,256,109,256,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}"
+Friday,255,110,255,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}"
+Saturday,255,110,255,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}"
+Sunday,256,110,256,model,"{'lags': 4, 'num_leaves': 15, 'learning_rate': 0.03}"

@@ -1,0 +1,211 @@
+weekday,train_obs,test_obs,real_train_targets,status,params,dataset,model
+Monday,146,63,146,model,{'lags': 2},Moratuwa,Multiple Linear Regression
+Tuesday,146,62,146,model,{'lags': 4},Moratuwa,Multiple Linear Regression
+Wednesday,146,62,146,model,{'lags': 2},Moratuwa,Multiple Linear Regression
+Thursday,147,62,147,model,{'lags': 2},Moratuwa,Multiple Linear Regression
+Friday,146,63,146,model,{'lags': 8},Moratuwa,Multiple Linear Regression
+Saturday,146,63,146,model,{'lags': 2},Moratuwa,Multiple Linear Regression
+Sunday,146,63,146,model,{'lags': 4},Moratuwa,Multiple Linear Regression
+Monday,146,63,146,model,"{'model': 'ARIMA(1,1,1)                   '}",Moratuwa,Auto ARIMA
+Tuesday,146,62,146,model,"{'model': 'ARIMA(2,1,3)                   '}",Moratuwa,Auto ARIMA
+Wednesday,146,62,146,model,"{'model': 'ARIMA(1,1,1)                   '}",Moratuwa,Auto ARIMA
+Thursday,147,62,147,model,"{'model': 'ARIMA(3,1,1)                   '}",Moratuwa,Auto ARIMA
+Friday,146,63,146,model,"{'model': 'ARIMA(0,1,1)                   '}",Moratuwa,Auto ARIMA
+Saturday,146,63,146,model,"{'model': 'ARIMA(1,1,2)                   '}",Moratuwa,Auto ARIMA
+Sunday,146,63,146,model,"{'model': 'ARIMA(2,1,1)                   '}",Moratuwa,Auto ARIMA
+Monday,146,63,146,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Moratuwa,LightGBM
+Tuesday,146,62,146,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Moratuwa,LightGBM
+Wednesday,146,62,146,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}",Moratuwa,LightGBM
+Thursday,147,62,147,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.03}",Moratuwa,LightGBM
+Friday,146,63,146,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.1}",Moratuwa,LightGBM
+Saturday,146,63,146,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Moratuwa,LightGBM
+Sunday,146,63,146,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.03}",Moratuwa,LightGBM
+Monday,146,63,146,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 3}",Moratuwa,Random Forest
+Tuesday,146,62,146,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Moratuwa,Random Forest
+Wednesday,146,62,146,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 3}",Moratuwa,Random Forest
+Thursday,147,62,147,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 1}",Moratuwa,Random Forest
+Friday,146,63,146,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 1}",Moratuwa,Random Forest
+Saturday,146,63,146,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Moratuwa,Random Forest
+Sunday,146,63,146,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Moratuwa,Random Forest
+Monday,146,63,146,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}",Moratuwa,Prophet
+Tuesday,146,62,146,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'additive'}",Moratuwa,Prophet
+Wednesday,146,62,146,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'multiplicative'}",Moratuwa,Prophet
+Thursday,147,62,147,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'multiplicative'}",Moratuwa,Prophet
+Friday,146,63,146,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'multiplicative'}",Moratuwa,Prophet
+Saturday,146,63,146,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}",Moratuwa,Prophet
+Sunday,146,63,146,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'multiplicative'}",Moratuwa,Prophet
+Monday,146,63,146,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Tuesday,146,62,146,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Wednesday,146,62,146,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Thursday,147,62,147,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Friday,146,63,146,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Saturday,146,63,146,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Sunday,146,63,146,model,{'rule': 'same weekday last week'},Moratuwa,Seasonal naive (reference)
+Monday,146,63,146,model,{'lags': 2},Dehiwala,Multiple Linear Regression
+Tuesday,146,63,146,model,{'lags': 4},Dehiwala,Multiple Linear Regression
+Wednesday,146,63,146,model,{'lags': 2},Dehiwala,Multiple Linear Regression
+Thursday,146,63,146,model,{'lags': 4},Dehiwala,Multiple Linear Regression
+Friday,146,62,146,model,{'lags': 8},Dehiwala,Multiple Linear Regression
+Saturday,146,62,146,model,{'lags': 8},Dehiwala,Multiple Linear Regression
+Sunday,147,62,147,model,{'lags': 2},Dehiwala,Multiple Linear Regression
+Monday,146,63,146,model,"{'model': 'ARIMA(1,1,4)                   '}",Dehiwala,Auto ARIMA
+Tuesday,146,63,146,model,"{'model': 'ARIMA(0,1,2)                   '}",Dehiwala,Auto ARIMA
+Wednesday,146,63,146,model,"{'model': 'ARIMA(0,1,1)                   '}",Dehiwala,Auto ARIMA
+Thursday,146,63,146,model,"{'model': 'ARIMA(0,1,1) with drift        '}",Dehiwala,Auto ARIMA
+Friday,146,62,146,model,"{'model': 'ARIMA(1,1,2) with drift        '}",Dehiwala,Auto ARIMA
+Saturday,146,62,146,model,"{'model': 'ARIMA(0,1,1) with drift        '}",Dehiwala,Auto ARIMA
+Sunday,147,62,147,model,"{'model': 'ARIMA(1,1,1)                   '}",Dehiwala,Auto ARIMA
+Monday,146,63,146,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.03}",Dehiwala,LightGBM
+Tuesday,146,63,146,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.03}",Dehiwala,LightGBM
+Wednesday,146,63,146,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.1}",Dehiwala,LightGBM
+Thursday,146,63,146,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.03}",Dehiwala,LightGBM
+Friday,146,62,146,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Dehiwala,LightGBM
+Saturday,146,62,146,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}",Dehiwala,LightGBM
+Sunday,147,62,147,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.03}",Dehiwala,LightGBM
+Monday,146,63,146,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Dehiwala,Random Forest
+Tuesday,146,63,146,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Dehiwala,Random Forest
+Wednesday,146,63,146,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 1}",Dehiwala,Random Forest
+Thursday,146,63,146,model,"{'lags': 8, 'max_depth': 8, 'min_samples_leaf': 3}",Dehiwala,Random Forest
+Friday,146,62,146,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Dehiwala,Random Forest
+Saturday,146,62,146,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Dehiwala,Random Forest
+Sunday,147,62,147,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 3}",Dehiwala,Random Forest
+Monday,146,63,146,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'additive'}",Dehiwala,Prophet
+Tuesday,146,63,146,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Dehiwala,Prophet
+Wednesday,146,63,146,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Dehiwala,Prophet
+Thursday,146,63,146,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'multiplicative'}",Dehiwala,Prophet
+Friday,146,62,146,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Dehiwala,Prophet
+Saturday,146,62,146,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Dehiwala,Prophet
+Sunday,147,62,147,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Dehiwala,Prophet
+Monday,146,63,146,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Tuesday,146,63,146,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Wednesday,146,63,146,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Thursday,146,63,146,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Friday,146,62,146,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Saturday,146,62,146,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Sunday,147,62,147,model,{'rule': 'same weekday last week'},Dehiwala,Seasonal naive (reference)
+Monday,256,110,256,model,{'lags': 8},Boralasgamuwa,Multiple Linear Regression
+Tuesday,256,109,256,model,{'lags': 4},Boralasgamuwa,Multiple Linear Regression
+Wednesday,256,109,256,model,{'lags': 2},Boralasgamuwa,Multiple Linear Regression
+Thursday,256,109,256,model,{'lags': 4},Boralasgamuwa,Multiple Linear Regression
+Friday,255,110,255,model,{'lags': 2},Boralasgamuwa,Multiple Linear Regression
+Saturday,255,110,255,model,{'lags': 2},Boralasgamuwa,Multiple Linear Regression
+Sunday,256,110,256,model,{'lags': 4},Boralasgamuwa,Multiple Linear Regression
+Monday,256,110,256,model,"{'model': 'ARIMA(0,1,1)                   '}",Boralasgamuwa,Auto ARIMA
+Tuesday,256,109,256,model,"{'model': 'ARIMA(1,1,2)                   '}",Boralasgamuwa,Auto ARIMA
+Wednesday,256,109,256,model,"{'model': 'ARIMA(1,1,1)                   '}",Boralasgamuwa,Auto ARIMA
+Thursday,256,109,256,model,"{'model': 'ARIMA(0,1,1)                   '}",Boralasgamuwa,Auto ARIMA
+Friday,255,110,255,model,"{'model': 'ARIMA(1,1,1)                   '}",Boralasgamuwa,Auto ARIMA
+Saturday,255,110,255,model,"{'model': 'ARIMA(0,1,1)                   '}",Boralasgamuwa,Auto ARIMA
+Sunday,256,110,256,model,"{'model': 'ARIMA(0,1,1)                   '}",Boralasgamuwa,Auto ARIMA
+Monday,256,110,256,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.03}",Boralasgamuwa,LightGBM
+Tuesday,256,109,256,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.1}",Boralasgamuwa,LightGBM
+Wednesday,256,109,256,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Boralasgamuwa,LightGBM
+Thursday,256,109,256,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}",Boralasgamuwa,LightGBM
+Friday,255,110,255,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Boralasgamuwa,LightGBM
+Saturday,255,110,255,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Boralasgamuwa,LightGBM
+Sunday,256,110,256,model,"{'lags': 4, 'num_leaves': 15, 'learning_rate': 0.03}",Boralasgamuwa,LightGBM
+Monday,256,110,256,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Boralasgamuwa,Random Forest
+Tuesday,256,109,256,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 1}",Boralasgamuwa,Random Forest
+Wednesday,256,109,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Boralasgamuwa,Random Forest
+Thursday,256,109,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 3}",Boralasgamuwa,Random Forest
+Friday,255,110,255,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Boralasgamuwa,Random Forest
+Saturday,255,110,255,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Boralasgamuwa,Random Forest
+Sunday,256,110,256,model,"{'lags': 4, 'max_depth': 8, 'min_samples_leaf': 1}",Boralasgamuwa,Random Forest
+Monday,256,110,256,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Tuesday,256,109,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Wednesday,256,109,256,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Thursday,256,109,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Friday,255,110,255,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Saturday,255,110,255,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Sunday,256,110,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Boralasgamuwa,Prophet
+Monday,256,110,256,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Tuesday,256,109,256,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Wednesday,256,109,256,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Thursday,256,109,256,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Friday,255,110,255,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Saturday,255,110,255,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Sunday,256,110,256,model,{'rule': 'same weekday last week'},Boralasgamuwa,Seasonal naive (reference)
+Monday,402,172,402,model,{'lags': 8},Ballarat,Multiple Linear Regression
+Tuesday,402,172,402,model,{'lags': 8},Ballarat,Multiple Linear Regression
+Wednesday,402,172,402,model,{'lags': 8},Ballarat,Multiple Linear Regression
+Thursday,402,172,402,model,{'lags': 4},Ballarat,Multiple Linear Regression
+Friday,402,172,402,model,{'lags': 8},Ballarat,Multiple Linear Regression
+Saturday,401,173,401,model,{'lags': 4},Ballarat,Multiple Linear Regression
+Sunday,401,172,401,model,{'lags': 2},Ballarat,Multiple Linear Regression
+Monday,402,172,402,model,"{'model': 'ARIMA(1,1,2)                   '}",Ballarat,Auto ARIMA
+Tuesday,402,172,402,model,"{'model': 'ARIMA(1,1,2)                   '}",Ballarat,Auto ARIMA
+Wednesday,402,172,402,model,"{'model': 'ARIMA(3,1,4)                   '}",Ballarat,Auto ARIMA
+Thursday,402,172,402,model,"{'model': 'ARIMA(1,1,3)                   '}",Ballarat,Auto ARIMA
+Friday,402,172,402,model,"{'model': 'ARIMA(1,0,1) with non-zero mean'}",Ballarat,Auto ARIMA
+Saturday,401,173,401,model,"{'model': 'ARIMA(1,0,2) with non-zero mean'}",Ballarat,Auto ARIMA
+Sunday,401,172,401,model,"{'model': 'ARIMA(0,0,0) with non-zero mean'}",Ballarat,Auto ARIMA
+Monday,402,172,402,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.03}",Ballarat,LightGBM
+Tuesday,402,172,402,model,"{'lags': 8, 'num_leaves': 7, 'learning_rate': 0.03}",Ballarat,LightGBM
+Wednesday,402,172,402,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}",Ballarat,LightGBM
+Thursday,402,172,402,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}",Ballarat,LightGBM
+Friday,402,172,402,model,"{'lags': 4, 'num_leaves': 7, 'learning_rate': 0.03}",Ballarat,LightGBM
+Saturday,401,173,401,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.1}",Ballarat,LightGBM
+Sunday,401,172,401,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Ballarat,LightGBM
+Monday,402,172,402,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Ballarat,Random Forest
+Tuesday,402,172,402,model,"{'lags': 8, 'max_depth': 8, 'min_samples_leaf': 1}",Ballarat,Random Forest
+Wednesday,402,172,402,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 1}",Ballarat,Random Forest
+Thursday,402,172,402,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 1}",Ballarat,Random Forest
+Friday,402,172,402,model,"{'lags': 4, 'max_depth': 4, 'min_samples_leaf': 3}",Ballarat,Random Forest
+Saturday,401,173,401,model,"{'lags': 2, 'max_depth': 8, 'min_samples_leaf': 1}",Ballarat,Random Forest
+Sunday,401,172,401,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Ballarat,Random Forest
+Monday,402,172,402,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'multiplicative'}",Ballarat,Prophet
+Tuesday,402,172,402,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}",Ballarat,Prophet
+Wednesday,402,172,402,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'additive'}",Ballarat,Prophet
+Thursday,402,172,402,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Ballarat,Prophet
+Friday,402,172,402,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Ballarat,Prophet
+Saturday,401,173,401,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'additive'}",Ballarat,Prophet
+Sunday,401,172,401,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Ballarat,Prophet
+Monday,402,172,402,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Tuesday,402,172,402,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Wednesday,402,172,402,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Thursday,402,172,402,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Friday,402,172,402,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Saturday,401,173,401,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Sunday,401,172,401,model,{'rule': 'same weekday last week'},Ballarat,Seasonal naive (reference)
+Monday,256,109,256,model,{'lags': 4},Austin,Multiple Linear Regression
+Tuesday,256,109,256,model,{'lags': 2},Austin,Multiple Linear Regression
+Wednesday,255,110,255,model,{'lags': 2},Austin,Multiple Linear Regression
+Thursday,255,110,255,model,{'lags': 8},Austin,Multiple Linear Regression
+Friday,255,110,255,model,{'lags': 8},Austin,Multiple Linear Regression
+Saturday,256,110,256,model,{'lags': 2},Austin,Multiple Linear Regression
+Sunday,256,109,256,model,{'lags': 8},Austin,Multiple Linear Regression
+Monday,256,109,256,model,"{'model': 'ARIMA(0,1,2)                   '}",Austin,Auto ARIMA
+Tuesday,256,109,256,model,"{'model': 'ARIMA(1,1,3)                   '}",Austin,Auto ARIMA
+Wednesday,255,110,255,model,"{'model': 'ARIMA(1,1,2) with drift        '}",Austin,Auto ARIMA
+Thursday,255,110,255,model,"{'model': 'ARIMA(1,0,1) with non-zero mean'}",Austin,Auto ARIMA
+Friday,255,110,255,model,"{'model': 'ARIMA(2,1,3)                   '}",Austin,Auto ARIMA
+Saturday,256,110,256,model,"{'model': 'ARIMA(3,0,3) with non-zero mean'}",Austin,Auto ARIMA
+Sunday,256,109,256,model,"{'model': 'ARIMA(0,0,0) with non-zero mean'}",Austin,Auto ARIMA
+Monday,256,109,256,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Austin,LightGBM
+Tuesday,256,109,256,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Austin,LightGBM
+Wednesday,255,110,255,model,"{'lags': 8, 'num_leaves': 15, 'learning_rate': 0.03}",Austin,LightGBM
+Thursday,255,110,255,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Austin,LightGBM
+Friday,255,110,255,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Austin,LightGBM
+Saturday,256,110,256,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Austin,LightGBM
+Sunday,256,109,256,model,"{'lags': 2, 'num_leaves': 7, 'learning_rate': 0.03}",Austin,LightGBM
+Monday,256,109,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Austin,Random Forest
+Tuesday,256,109,256,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Austin,Random Forest
+Wednesday,255,110,255,model,"{'lags': 8, 'max_depth': 8, 'min_samples_leaf': 3}",Austin,Random Forest
+Thursday,255,110,255,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}",Austin,Random Forest
+Friday,255,110,255,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 3}",Austin,Random Forest
+Saturday,256,110,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}",Austin,Random Forest
+Sunday,256,109,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 3}",Austin,Random Forest
+Monday,256,109,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Austin,Prophet
+Tuesday,256,109,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Austin,Prophet
+Wednesday,255,110,255,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'multiplicative'}",Austin,Prophet
+Thursday,255,110,255,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Austin,Prophet
+Friday,255,110,255,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}",Austin,Prophet
+Saturday,256,110,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'multiplicative'}",Austin,Prophet
+Sunday,256,109,256,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}",Austin,Prophet
+Monday,256,109,256,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)
+Tuesday,256,109,256,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)
+Wednesday,255,110,255,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)
+Thursday,255,110,255,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)
+Friday,255,110,255,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)
+Saturday,256,110,256,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)
+Sunday,256,109,256,model,{'rule': 'same weekday last week'},Austin,Seasonal naive (reference)

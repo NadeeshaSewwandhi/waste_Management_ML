@@ -1,0 +1,8 @@
+weekday,train_obs,test_obs,real_train_targets,status,params
+Monday,256,109,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Tuesday,256,109,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Wednesday,255,110,255,model,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'multiplicative'}"
+Thursday,255,110,255,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Friday,255,110,255,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Saturday,256,110,256,model,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'multiplicative'}"
+Sunday,256,109,256,model,"{'changepoint_prior_scale': 0.1, 'seasonality_mode': 'multiplicative'}"

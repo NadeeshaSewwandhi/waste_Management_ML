@@ -1,0 +1,8 @@
+weekday,train_obs,test_obs,real_train_targets,status,params
+Monday,146,63,146,model,{'rule': 'same weekday last week'}
+Tuesday,146,63,146,model,{'rule': 'same weekday last week'}
+Wednesday,146,63,146,model,{'rule': 'same weekday last week'}
+Thursday,146,63,146,model,{'rule': 'same weekday last week'}
+Friday,146,62,146,model,{'rule': 'same weekday last week'}
+Saturday,146,62,146,model,{'rule': 'same weekday last week'}
+Sunday,147,62,147,model,{'rule': 'same weekday last week'}

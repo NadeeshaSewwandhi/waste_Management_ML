@@ -1,0 +1,3 @@
+candidate,units,dropout,lr,val_rmse_kg,epochs_run,best_epoch,params_count
+0,32,0.1,0.001,8513.43843828962,60,60,4385
+1,64,0.1,0.001,8202.223977924663,32,24,16961

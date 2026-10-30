@@ -1,0 +1,8 @@
+weekday,train_obs,test_obs,real_train_targets,status,params
+Monday,146,63,146,model,{'lags': 2}
+Tuesday,146,63,146,model,{'lags': 4}
+Wednesday,146,63,146,model,{'lags': 2}
+Thursday,146,63,146,model,{'lags': 4}
+Friday,146,62,146,model,{'lags': 8}
+Saturday,146,62,146,model,{'lags': 8}
+Sunday,147,62,147,model,{'lags': 2}

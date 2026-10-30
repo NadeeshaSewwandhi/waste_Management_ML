@@ -1,0 +1,8 @@
+weekday,train_obs,test_obs,real_train_targets,status,params
+Monday,256,109,256,model,"{'model': 'ARIMA(0,1,2)                   '}"
+Tuesday,256,109,256,model,"{'model': 'ARIMA(1,1,3)                   '}"
+Wednesday,255,110,255,model,"{'model': 'ARIMA(1,1,2) with drift        '}"
+Thursday,255,110,255,model,"{'model': 'ARIMA(1,0,1) with non-zero mean'}"
+Friday,255,110,255,model,"{'model': 'ARIMA(2,1,3)                   '}"
+Saturday,256,110,256,model,"{'model': 'ARIMA(3,0,3) with non-zero mean'}"
+Sunday,256,109,256,model,"{'model': 'ARIMA(0,0,0) with non-zero mean'}"

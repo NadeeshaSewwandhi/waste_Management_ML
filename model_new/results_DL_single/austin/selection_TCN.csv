@@ -1,0 +1,3 @@
+candidate,filters,kernel_size,dilations,dropout,lr,val_rmse_kg,epochs_run,best_epoch,params_count
+0,32,3,"[1, 2, 4, 8]",0.1,0.001,78755.7230998525,33,25,21953
+1,64,3,"[1, 2, 4, 8]",0.1,0.001,85991.32760661471,13,5,86913

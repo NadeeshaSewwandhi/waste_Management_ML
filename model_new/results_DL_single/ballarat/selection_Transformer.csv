@@ -1,0 +1,3 @@
+candidate,d_model,heads,layers,ff_dim,dropout,lr,val_rmse_kg,epochs_run,best_epoch,params_count
+0,32,2,1,64,0.1,0.001,8912.20066737517,38,30,9537
+1,32,4,2,64,0.1,0.0005,8517.245230920957,29,21,18081

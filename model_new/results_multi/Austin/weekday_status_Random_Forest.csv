@@ -1,0 +1,8 @@
+weekday,train_obs,test_obs,real_train_targets,status,params
+Monday,256,109,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}"
+Tuesday,256,109,256,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}"
+Wednesday,255,110,255,model,"{'lags': 8, 'max_depth': 8, 'min_samples_leaf': 3}"
+Thursday,255,110,255,model,"{'lags': 8, 'max_depth': 4, 'min_samples_leaf': 3}"
+Friday,255,110,255,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 3}"
+Saturday,256,110,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 1}"
+Sunday,256,109,256,model,"{'lags': 2, 'max_depth': 4, 'min_samples_leaf': 3}"

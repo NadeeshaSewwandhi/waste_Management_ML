@@ -1,0 +1,31 @@
+dataset,model,MAE,RMSE,MAPE_%,n_scored,n_zero_excluded_from_MAPE,selected_params
+Moratuwa,Multiple Linear Regression,13672.09043104813,18589.346523376662,19.86828378963707,438,0,{'lags': 28}
+Moratuwa,Auto ARIMA,13505.53631373166,18602.490835476012,20.307913173100793,438,0,"{'model': 'ARIMA(0,1,2)(1,0,1)[7]                   '}"
+Moratuwa,LightGBM,14172.075561177015,19500.957762742597,21.35204936541251,438,0,"{'lags': 28, 'num_leaves': 31, 'learning_rate': 0.03}"
+Moratuwa,Random Forest,13008.270248976683,18328.82612699725,19.887556897077207,438,0,"{'lags': 28, 'max_depth': 16, 'min_samples_leaf': 5}"
+Moratuwa,Prophet,21319.325823974308,28420.125837629515,33.732820759873704,438,0,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'additive'}"
+Moratuwa,Seasonal naive (reference),16417.591020976026,22390.614475945877,22.88791460676873,438,0,{'rule': 'y[t-7]'}
+Dehiwala,Multiple Linear Regression,20791.279175736792,29997.940819826665,20.10677721383739,438,0,{'lags': 28}
+Dehiwala,Auto ARIMA,18524.78503185676,27914.123966564188,19.12598904447807,438,0,"{'model': 'ARIMA(1,0,1)(0,1,2)[7] with drift        '}"
+Dehiwala,LightGBM,20199.77388621393,29656.096025662904,20.208497527844354,438,0,"{'lags': 28, 'num_leaves': 31, 'learning_rate': 0.03}"
+Dehiwala,Random Forest,20522.431360581213,29982.844318814998,20.530342699407402,438,0,"{'lags': 28, 'max_depth': 16, 'min_samples_leaf': 5}"
+Dehiwala,Prophet,21366.076484426925,32292.681090815586,23.298336869295326,438,0,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Dehiwala,Seasonal naive (reference),24449.92151826484,36621.38429493034,22.61800779500522,438,0,{'rule': 'y[t-7]'}
+Boralasgamuwa,Multiple Linear Regression,4828.6366847449235,6439.423288990831,21.31028913773919,767,2,{'lags': 28}
+Boralasgamuwa,Auto ARIMA,4663.895261311901,6301.994320444982,20.422604863987097,767,2,"{'model': 'ARIMA(1,0,4)(2,1,2)[7]                   '}"
+Boralasgamuwa,LightGBM,4918.564763889374,6582.662744639859,22.283446889448985,767,2,"{'lags': 28, 'num_leaves': 31, 'learning_rate': 0.03}"
+Boralasgamuwa,Random Forest,4684.030774411547,6355.838178224271,21.354620091805703,767,2,"{'lags': 28, 'max_depth': 16, 'min_samples_leaf': 5}"
+Boralasgamuwa,Prophet,10681.151438834893,12410.647690025125,39.95438282082982,767,2,"{'changepoint_prior_scale': 0.5, 'seasonality_mode': 'additive'}"
+Boralasgamuwa,Seasonal naive (reference),6273.344070852347,8392.797054470613,26.73476931592792,767,2,{'rule': 'y[t-7]'}
+Ballarat,Multiple Linear Regression,4468.5969349084435,7754.754571044847,7.44097232386807,1205,345,{'lags': 28}
+Ballarat,Auto ARIMA,4244.554679683528,7420.629098964125,7.089248742547187,1205,345,"{'model': 'ARIMA(5,0,1)(1,1,2)[7]                   '}"
+Ballarat,LightGBM,5977.551551851236,9092.843833046141,7.975373662728097,1205,345,"{'lags': 28, 'num_leaves': 31, 'learning_rate': 0.03}"
+Ballarat,Random Forest,5553.347897183872,8848.915991294778,7.115169303825006,1205,345,"{'lags': 28, 'max_depth': 16, 'min_samples_leaf': 5}"
+Ballarat,Prophet,7786.944760527177,10979.950232773564,11.313338341030564,1205,345,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Ballarat,Seasonal naive (reference),4071.2217647821576,8376.839511899829,7.1965884041653885,1205,345,{'rule': 'y[t-7]'}
+Austin,Multiple Linear Regression,86072.14270138525,176814.99980099188,131.58809781467912,767,119,{'lags': 28}
+Austin,Auto ARIMA,84215.78055136428,169095.7407446701,116.05840840236255,767,119,"{'model': 'ARIMA(2,0,1)(0,1,2)[7]                   '}"
+Austin,LightGBM,82151.58778022247,162515.9022689265,139.29578774904,767,119,"{'lags': 28, 'num_leaves': 31, 'learning_rate': 0.03}"
+Austin,Random Forest,88200.88412183026,184715.7959243982,78.48932045707917,767,119,"{'lags': 7, 'max_depth': 16, 'min_samples_leaf': 1}"
+Austin,Prophet,117347.95009157155,188012.5061730436,475.8425116972684,767,119,"{'changepoint_prior_scale': 0.01, 'seasonality_mode': 'additive'}"
+Austin,Seasonal naive (reference),94260.75660612065,208466.15072196227,22.620656824384998,767,119,{'rule': 'y[t-7]'}

@@ -1,0 +1,3 @@
+candidate,units,blocks,layers_per_block,lr,val_rmse_kg,epochs_run,best_epoch,params_count
+0,128,3,3,0.001,83076.59578278754,15,7,117819
+1,256,3,4,0.001,87031.480419424,15,7,629563

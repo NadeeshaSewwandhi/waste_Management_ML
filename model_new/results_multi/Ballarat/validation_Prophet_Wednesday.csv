@@ -1,0 +1,7 @@
+changepoint_prior_scale,seasonality_mode,cv_rmse,folds_used
+0.1,additive,4264.601162975114,3
+0.1,multiplicative,4370.627612018066,3
+0.01,multiplicative,4392.537826929171,3
+0.01,additive,4406.705261939988,3
+0.5,additive,4457.320515087803,3
+0.5,multiplicative,4467.033903686777,3
